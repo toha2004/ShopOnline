@@ -1,0 +1,153 @@
+.header {
+   padding: 30px 0;
+}
+
+.container__header {
+    width: 1770px;
+    margin: 0 auto ;
+}
+
+
+.container__navigation {
+    max-width: 1770px;
+    height: 61px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto 60px auto;
+}
+
+
+.logo {
+    width: 190px;
+    height: 41px;
+    margin-right: 123px;
+    margin-bottom: 44px;
+}
+
+.box {
+    width: 1007px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-right: 97px;
+}
+
+.navigation-btn {
+    width: 151px;
+    height: 54px;
+    background: #3670C7;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.search {
+    width: 756px;
+    height: 54px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    color: #8F8F8F;
+    background-color: #EFEFEF;
+    border-radius: 30px;
+    padding-left: 40px;
+    background-image: url("../../img/btn.png");
+    background-repeat: no-repeat;
+    background-position: 656px;
+}
+
+.buyer__list {
+    width: 354px;
+    height: 61px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile {
+    width: 69px;
+    height: 61px;
+    background-image: url("../../img/profile.png");
+}
+
+.basket {
+    width: 63px;
+    height: 61px;
+    background-image: url("../../img/basket.png");
+}
+
+.favourite {
+    width: 82px;
+    height: 61px;
+    background-image: url("../../img/favourite.png");
+}
+
+
+
+@media (max-width: 1024px) {
+    .container__header {
+        max-width: 940px;
+        height: 149px;
+    }
+
+    .container__navigation {
+        max-width: 940px;
+        height: 149px;
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        margin-right: 456px;
+    }
+
+    .box {
+        width: 940px;
+        order: 1;
+    }
+
+    .navigation-btn {
+
+    }
+
+    .search {
+        width: 700px;
+    }
+
+    .buyer__list {
+        max-width: 294px;
+        height: 61px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container__header {
+        max-width: 700px;
+        height: 115px;
+    }
+    .container__navigation {
+
+    }
+
+    .navigation-btn {
+        width: 115px;
+        height: 42px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container__header {
+        max-width: 280px;
+        height: 125px;
+    }
+    .container__navigation {
+    }
+
+    .navigation-btn {
+        width: 79px;
+        height: 30px;
+    }
+}
+

@@ -1,0 +1,14 @@
+.article {
+    height: 3229px;
+    width: 1095px;
+    float: left;
+}
+
+
+.article__title {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+

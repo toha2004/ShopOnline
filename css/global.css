@@ -1,0 +1,64 @@
+html {
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+* {
+    box-sizing: inherit;
+}
+
+
+body {
+   font-family:'Lato';
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1920px;
+    min-width: 320px;
+    min-height: 100vh;
+    font-size: 22px;
+    line-height: 1.5;
+    color: #2D2D2DFF;
+}
+
+.container {
+    width: 1770px;
+    margin: 0 auto ;
+}
+
+.container__article {
+    width: 1095px;
+    margin: 0 auto ;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+h1, h2, p, figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+
+.main {
+    max-width: 1920px;
+    height: 3229px;
+    margin: 0 auto;
+}
+
+
+.subtitle {
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1.3;
+}

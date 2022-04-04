@@ -1,0 +1,436 @@
+.wrapper {
+    max-width: 1770px;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.container__navigation {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.container_banner {
+    position: relative;
+    max-width: 1770px;
+    height: 480px;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto 60px auto;
+}
+
+.banner_text1 {
+    position: absolute;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 130%;
+    color: #FFFFFF;
+    z-index: 1;
+    top: 145px;
+    left: 112px;
+}
+
+.banner_text2 {
+    position: absolute;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
+    z-index: 1;
+    top: 336px;
+    left: 823px;
+}
+
+.banner_text3 {
+    position: absolute;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+    color: #FFFFFF;
+    z-index: 1;
+    top: 362px;
+    left: 649px;
+}
+
+.number {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.container_promo {
+    max-width: 100%;
+    height: 1092px;
+    object-fit: cover;
+    display: grid;
+    grid-template-columns: repeat(6,  auto);
+    gap: 60px;
+    grid-template-areas:
+    "one two three three four four"
+    "five five three three six six"
+    "seven seven seven seven eight nine"
+    "seven seven seven seven eight ten";
+}
+.promo1 {
+    grid-area: one;
+}
+.promo2 {
+    grid-area: two;
+}
+.promo3 {
+    grid-area: three;
+}
+.promo4 {
+    grid-area: four;
+}
+.promo5 {
+    grid-area: five;
+}
+.promo6 {
+    grid-area: six;
+}
+.promo7 {
+    grid-area: seven;
+}
+.promo8 {
+    grid-area: eight;
+}
+.promo9 {
+    grid-area: nine;
+}
+.promo10 {
+    grid-area: ten;
+}
+
+.promo_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profitable {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 130%;
+    color: #2D2D2D;
+    margin-bottom: 50px;
+}
+
+.container_goods {
+    max-width: 1770px;
+    min-height: 953px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    justify-content: space-between;
+    grid-gap: 47px 30px;
+}
+
+.goods {
+    position: relative;
+    width: 420px;
+    height: 394px;
+}
+
+.goods_img {
+    width: 420px;
+    height: 295px;
+}
+
+.goods_sale {
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    object-fit: cover;
+    z-index: 1;
+    top: 187px;
+    left: 20px;
+}
+
+.goods__text1 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #2D2D2D;
+    margin-right: 28px;
+    margin-bottom: 15px;
+}
+
+.goods__text2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2D2D2D;
+}
+
+.decoration {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    text-decoration: line-through;
+}
+
+
+@media (max-width: 1024px) {
+    .wrapper {
+        max-width: 940px;
+        margin: 0 auto;
+    }
+
+    .container_banner {
+        max-width: 940px;
+        height: 314px;
+        background-size: cover;
+        background-position: center;;
+        margin: 0 auto 60px auto;
+    }
+
+    .banner_text1 {
+        font-size: 40px;
+        top: 80px;
+        left: 80px;
+    }
+
+    .banner_text2 {
+        top: 195px;
+        left: 410px;
+    }
+
+    .banner_text3 {
+        font-size: 20px;
+        top: 226px;
+        left: 315px;
+    }
+
+    .number {
+        font-size: 40px;
+    }
+
+    .container_promo {
+        max-width: 940px;
+        height: 1322px;
+        object-fit: cover;
+        display: grid;
+        grid-template-columns: repeat(4, 217px);
+        row-gap: 22px;
+        column-gap: 30px;
+        grid-template-areas:
+    "one two three three "
+    "five five three three "
+    "four four eight nine"
+    "six six eight ten"
+    "seven seven seven seven"
+    "seven seven seven seven";
+    }
+
+    .profitable {
+        margin-bottom: 40px;
+    }
+
+    .container_goods {
+        height: 1383px;
+        grid-template-columns: repeat(3, minmax(300px, 1fr));
+        /* grid-template-rows: repeat(3, 1fr);*/
+        grid-gap: 47px 30px;
+        margin: 0 auto;
+    }
+
+    .goods_img {
+        width: 300px;
+        height: 295px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    body {
+        height: 3241px;
+    }
+    .wrapper {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .container_banner {
+        max-width: 700px;
+        height: 280px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .banner_text1 {
+        font-size: 30px;
+        top: 64px;
+        left: 80px;
+    }
+
+    .banner_text2 {
+        font-size: 12px;
+        top: 185px;
+        left: 303px;
+    }
+
+    .banner_text3 {
+        font-size: 16px;
+        top: 211px;
+        left: 235px;
+    }
+
+    .number {
+        font-size: 30px;
+    }
+
+    .container_promo {
+        max-width: 940px;
+        height: 1322px;
+        object-fit: cover;
+        display: grid;
+        grid-template-columns: repeat(4, 140px);
+        row-gap: 22px;
+        column-gap: 20px;
+    }
+
+    .container_goods {
+        grid-template-columns: repeat(3, minmax(220px, 1fr));
+        grid-gap: 50px 20px;
+        margin: 0 auto;
+    }
+
+    .goods {
+        width: 220px;
+        height: 294px;
+    }
+
+    .goods_img {
+        width: 220px;
+        height: 216px;
+        object-fit: cover;
+    }
+
+    .goods_sale {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        z-index: 1;
+        top: 146px;
+        left: 10px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    body {
+        height: 3140px;
+    }
+    .wrapper {
+        max-width: 280px;
+        min-height: 3140px;
+        margin: 0 auto;
+    }
+
+    .container_banner {
+        max-width: 280px;
+        height: 340px;
+        margin-bottom: 20px;
+        background-size: auto;
+    }
+
+    .banner_text1 {
+        font-size: 22px;
+        top: 50px;
+        left: 29px;
+    }
+
+    .banner_text2 {
+        font-size: 8px;
+        top: 268px;
+        left: 110px;
+    }
+
+    .banner_text3 {
+        font-size: 12px;
+        top: 284px;
+        left: 57px;
+    }
+
+    .number {
+        font-size: 20px;
+    }
+
+    .container_promo {
+        max-width: 100%;
+        height: 1116px;
+        object-fit: cover;
+        display: grid;
+        grid-template-columns: repeat(2,  auto);
+        column-gap: 20px;
+        row-gap: 25px;
+        grid-template-areas:
+    "one two"
+    "five five"
+    "three three"
+    "three three"
+    "four four"
+    "six six"
+    "eight nine"
+    "eight ten"
+    "seven seven"
+    "seven seven";
+    }
+
+    .profitable {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 130%;
+        color: #2D2D2D;
+        margin-bottom: 25px;
+    }
+
+    .container_goods {
+        height: 861px;
+        grid-template-columns: repeat(2, minmax(130px, 1fr));
+        grid-gap: 30px 20px;
+        margin: 0 auto;
+    }
+
+    .goods {
+        position: relative;
+        width: 130px;
+        height: 180px;
+    }
+
+    .goods_img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .goods_sale {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        z-index: 1;
+        top: 84px;
+        left: 6px;
+    }
+
+    .goods__text1 {
+        font-size: 16px;
+        line-height: 19px;
+        margin-right: 28px;
+        margin-bottom: 15px;
+    }
+
+    .goods__text2 {
+        font-size: 12px;
+        line-height: 150%;
+    }
+
+    .decoration {
+        font-size: 12px;
+        line-height: 14px;
+    }
+}

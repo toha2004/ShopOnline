@@ -1,0 +1,23 @@
+.shoes {
+    padding: 20px 0;
+}
+
+.shoes__img {
+    width: 1095px;
+    height: 560px;
+}
+
+.article__title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 130%;
+    color: #2D2D2D;
+    margin-bottom: 40px;
+}
+
+.shoes__text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    color: #2D2D2D;
+}
