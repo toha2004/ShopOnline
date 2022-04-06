@@ -324,7 +324,7 @@
         /* height: 1322px;*/
         object-fit: cover;
         display: grid;
-        grid-template-columns: repeat(4, 140px);
+        grid-template-columns: repeat(4, minmax(140px, 1fr));
         row-gap: 22px;
         column-gap: 20px;
     }
