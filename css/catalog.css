@@ -1,25 +1,26 @@
-.wrapper {
-    max-width: 1770px;
-    margin: 0 auto;
+.section_banner {
+    padding: 30px 0;
+}
+
+.section_promo {
+    padding: 30px 0 50px 0;
+}
+
+.section_goods {
+    padding: 50px 0;
 }
 
 .container {
+    max-width: 1770px;
     margin: 0 auto;
-}
-
-.container__navigation {
-    display: flex;
-    flex-wrap: nowrap;
 }
 
 .container_banner {
     position: relative;
-    max-width: 1770px;
     height: 480px;
     background-image: url("../img/banner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 0 auto 60px auto;
 }
 
 .banner_text1 {
@@ -63,11 +64,10 @@
 }
 
 .container_promo {
-    max-width: 100%;
     height: 1092px;
     object-fit: cover;
     display: grid;
-    grid-template-columns: repeat(6,  auto);
+    grid-template-columns: repeat(6, auto);
     gap: 60px;
     grid-template-areas:
     "one two three three four four"
@@ -75,33 +75,43 @@
     "seven seven seven seven eight nine"
     "seven seven seven seven eight ten";
 }
+
 .promo1 {
     grid-area: one;
 }
+
 .promo2 {
     grid-area: two;
 }
+
 .promo3 {
     grid-area: three;
 }
+
 .promo4 {
     grid-area: four;
 }
+
 .promo5 {
     grid-area: five;
 }
+
 .promo6 {
     grid-area: six;
 }
+
 .promo7 {
     grid-area: seven;
 }
+
 .promo8 {
     grid-area: eight;
 }
+
 .promo9 {
     grid-area: nine;
 }
+
 .promo10 {
     grid-area: ten;
 }
@@ -112,21 +122,23 @@
     object-fit: cover;
 }
 
-.profitable {
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 130%;
-    color: #2D2D2D;
-    margin-bottom: 50px;
-}
+
 
 .container_goods {
-    max-width: 1770px;
     min-height: 953px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
     justify-content: space-between;
     grid-gap: 47px 30px;
+}
+
+.goods__title {
+    max-width: 1770px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 130%;
+    color: #2D2D2D;
+    margin: 0 auto 50px auto;
 }
 
 .goods {
@@ -175,13 +187,24 @@
 
 
 @media (max-width: 1024px) {
-    .wrapper {
+    .section_banner {
+        padding: 30px 0;
+    }
+
+    .section_promo {
+        padding: 20px 0 ;
+    }
+
+    .section_goods {
+        padding: 70px 0;
+    }
+
+    .container {
         max-width: 940px;
         margin: 0 auto;
     }
 
     .container_banner {
-        max-width: 940px;
         height: 314px;
         background-size: cover;
         background-position: center;;
@@ -210,7 +233,6 @@
     }
 
     .container_promo {
-        max-width: 940px;
         height: 1322px;
         object-fit: cover;
         display: grid;
@@ -226,8 +248,9 @@
     "seven seven seven seven";
     }
 
-    .profitable {
-        margin-bottom: 40px;
+    .goods__title {
+        width: 940px;
+        margin: 0 auto 40px auto;
     }
 
     .container_goods {
@@ -246,16 +269,25 @@
 
 
 @media (max-width: 768px) {
-    body {
-        height: 3241px;
+
+    .section_banner {
+        padding: 20px 0;
     }
-    .wrapper {
+
+    .section_promo {
+        padding: 20px 0 ;
+    }
+
+    .section_goods {
+        padding: 40px 0;
+    }
+
+    .container {
         max-width: 700px;
         margin: 0 auto;
     }
 
     .container_banner {
-        max-width: 700px;
         height: 280px;
         background-size: cover;
         background-position: center;
@@ -284,7 +316,6 @@
     }
 
     .container_promo {
-        max-width: 940px;
         height: 1322px;
         object-fit: cover;
         display: grid;
@@ -296,7 +327,10 @@
     .container_goods {
         grid-template-columns: repeat(3, minmax(220px, 1fr));
         grid-gap: 50px 20px;
-        margin: 0 auto;
+    }
+    .goods__title {
+        width: 700px;
+        margin: 0 auto 30px auto;
     }
 
     .goods {
@@ -322,19 +356,25 @@
 
 
 @media (max-width: 320px) {
-    body {
-        height: 3140px;
+
+    .section_banner {
+        padding: 10px 0;
     }
-    .wrapper {
+
+    .section_promo {
+        padding: 10px 0 ;
+    }
+
+    .section_goods {
+        padding: 30px 0;
+    }
+    .container {
         max-width: 280px;
-        min-height: 3140px;
         margin: 0 auto;
     }
 
     .container_banner {
-        max-width: 280px;
         height: 340px;
-        margin-bottom: 20px;
         background-size: auto;
     }
 
@@ -361,11 +401,10 @@
     }
 
     .container_promo {
-        max-width: 100%;
         height: 1116px;
         object-fit: cover;
         display: grid;
-        grid-template-columns: repeat(2,  auto);
+        grid-template-columns: repeat(2, auto);
         column-gap: 20px;
         row-gap: 25px;
         grid-template-areas:
@@ -382,6 +421,7 @@
     }
 
     .profitable {
+        max-width: 280px;
         font-weight: 700;
         font-size: 20px;
         line-height: 130%;
@@ -393,7 +433,12 @@
         height: 861px;
         grid-template-columns: repeat(2, minmax(130px, 1fr));
         grid-gap: 30px 20px;
-        margin: 0 auto;
+    }
+    .goods__title {
+        width: 280px;
+        margin: 0 auto 25px auto;
+        font-size: 20px;
+        line-height: 130%;
     }
 
     .goods {

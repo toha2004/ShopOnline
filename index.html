@@ -11,99 +11,104 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-<div class="wrapper">
-    <header class="header">
-        <div class="container__header">
-            <img class="logo" src="img/logo.svg" alt="логотип" title="logo">
-            <!--<div class="box">-->
-                <button type="submit" class="navigation-btn"><img class="sort" src="img/sort.svg">Меню</button>
-                <form action="https://jsonplaceholder.typicode.com/posts" method="post">
-                    <input type="text" class="search" placeholder="Я ищу...">
-                </form>
-            <!--</div>-->
-            <ul class="buyer__list">
-                <li class="buyer__items profile"><a href="#">
-                </a></li>
-                <li class="buyer__items basket"><a href="#">
-                </a></li>
-                <li class="buyer__items favourite"><a href="#">
-                </a></li>
-            </ul>
+<!--<div class="wrapper">-->
+<header class="header">
+    <div class="container container__header">
+        <img class="logo" src="img/logo.svg" alt="логотип" title="logo">
+        <!--<div class="box">-->
+        <button type="submit" class="navigation-btn"><img class="sort" src="img/sort.svg">Меню</button>
+        <form action="https://jsonplaceholder.typicode.com/posts" method="post">
+            <input type="text" class="search" placeholder="Я ищу...">
+        </form>
+        <!--</div>-->
+        <ul class="buyer__list">
+            <li class="buyer__items profile"><a href="#">
+            </a></li>
+            <li class="buyer__items basket"><a href="#">
+            </a></li>
+            <li class="buyer__items favourite"><a href="#">
+            </a></li>
+        </ul>
+    </div>
+</header>
+<main class="main">
+    <section class="section_banner">
+        <div class="container container_banner">
+            <p class="banner_text1"> -50% на все ноутбуки</p>
+            <p class="banner_text2"> До конца акции:</p>
+            <p class="banner_text3"><span class="number">3</span> дня <span class="number">8</span> часов <span
+                    class="number">43</span> минуты</p>
         </div>
-    </header>
-    <main>
-        <div class="container__main">
-            <div class="container_banner">
-                <p class="banner_text1"> -50% на все ноутбуки</p>
-                <p class="banner_text2"> До конца акции:</p>
-                <p class="banner_text3"><span class="number">3</span> дня <span class="number">8</span> часов <span
-                        class="number">43</span> минуты</p>
-            </div>
-            <div class="container_promo">
-                <div class="promo1"><img class="promo_img" src="img/img 101.jpg" alt="" title=""></div>
-                <div class="promo2"><img class="promo_img" src="img/img 102.jpg" alt="" title=""></div>
-                <div class="promo3"><img class="promo_img" src="img/img 99.jpg" alt="" title=""></div>
-                <div class="promo4"><img class="promo_img" src="img/img 100.jpg" alt="" title=""></div>
-                <div class="promo5"><img class="promo_img" src="img/img 104.jpg" alt="" title=""></div>
-                <div class="promo6"><img class="promo_img" src="img/img 103.jpg" alt="" title=""></div>
-                <div class="promo7"><img class="promo_img" src="img/img 105.jpg" alt="" title=""></div>
-                <div class="promo8"><img class="promo_img" src="img/img 106.jpg" alt="" title=""></div>
-                <div class="promo9"><img class="promo_img" src="img/img 107.jpg" alt="" title=""></div>
-                <div class="promo10"><img class="promo_img" src="img/Rectangle 108.jpg" alt="" title=""></div>
-            </div>
-            <p class="profitable">Это выгодно!</p>
-            <div class="container_goods">
-                <figure class="goods goods1">
-                    <img class="goods_img" src="img/photo (10).jpg" alt="" title="">
-                    <img class="goods_sale" src="img/promo.png" alt="" title="">
-                    <figcaption class="goods__text1">1299 ₽ <span class="decoration">2598 ₽</span></figcaption>
-                    <figcaption class="goods__text2">Пара футболок</figcaption>
-                </figure>
-                <figure class="goods goods2">
-                    <img class="goods_img" src="img/photo (1).jpg" alt="" title="">
-                    <img class="goods_sale" src="img/promo (1).png" alt="" title="">
-                    <figcaption class="goods__text1">2099₽ <span class="decoration">5938 ₽</span></figcaption>
-                    <figcaption class="goods__text2">Кроссовки</figcaption>
-                </figure>
-                <figure class="goods goods3">
-                    <img class="goods_img" src="img/photo (2).jpg" alt="" title="">
-                    <img class="goods_sale" src="img/promo (2).png" alt="" title="">
-                    <figcaption class="goods__text1">3902 ₽ <span class="decoration">4490 ₽</span></figcaption>
-                    <figcaption class="goods__text2">Постельное белье</figcaption>
-                </figure>
-                <figure class="goods goods4">
-                    <img class="goods_img" src="img/photo (3).jpg" alt="" title="">
-                    <img class="goods_sale" src="img/promo (3).png" alt="" title="">
-                    <figcaption class="goods__text1">2999 ₽ <span class="decoration">6030 ₽</span></figcaption>
-                    <figcaption class="goods__text2">Фен</figcaption>
-                </figure>
-                <figure class="goods goods5">
-                    <img class="goods_img" src="img/photo (2).jpg" alt="" title="">
-                    <img class="goods_sale" src="img/promo (2).png" alt="" title="">
-                    <figcaption class="goods__text1">3902 ₽ <span class="decoration">4490 ₽</span></figcaption>
-                    <figcaption class="goods__text2">Постельное белье</figcaption>
-                </figure>
-                <figure class="goods goods6">
-                    <img class="goods_img" src="img/photo (3).jpg" alt="" title="">
-                    <img class="goods_sale" src="img/promo (3).png" alt="" title="">
-                    <figcaption class="goods__text1">2999 ₽ <span class="decoration">6030 ₽</span></figcaption>
-                    <figcaption class="goods__text2">Фен</figcaption>
-                </figure>
-                <figure class="goods goods7">
-                    <img class="goods_img" src="img/photo (20).jpg" alt="" title="">
-                    <img class="goods_sale" src="img/promo (3).png" alt="" title="">
-                    <figcaption class="goods__text1">540 ₽ <span class="decoration">890 ₽</span></figcaption>
-                    <figcaption class="goods__text2">Варежки-мишки</figcaption>
-                </figure>
-                <figure class="goods goods8">
-                    <img class="goods_img" src="img/photo (10).jpg" alt="" title="">
-                    <img class="goods_sale" src="img/promo (1).png" alt="" title="">
-                    <figcaption class="goods__text1">1299 ₽ <span class="decoration">2598 ₽</span></figcaption>
-                    <figcaption class="goods__text2">Пара футболок</figcaption>
-                </figure>
-            </div>
+    </section>
+    <section class="section_promo">
+        <div class="container container_promo">
+            <div class="promo1"><img class="promo_img" src="img/img 101.jpg" alt="" title=""></div>
+            <div class="promo2"><img class="promo_img" src="img/img 102.jpg" alt="" title=""></div>
+            <div class="promo3"><img class="promo_img" src="img/img 99.jpg" alt="" title=""></div>
+            <div class="promo4"><img class="promo_img" src="img/img 100.jpg" alt="" title=""></div>
+            <div class="promo5"><img class="promo_img" src="img/img 104.jpg" alt="" title=""></div>
+            <div class="promo6"><img class="promo_img" src="img/img 103.jpg" alt="" title=""></div>
+            <div class="promo7"><img class="promo_img" src="img/img 105.jpg" alt="" title=""></div>
+            <div class="promo8"><img class="promo_img" src="img/img 106.jpg" alt="" title=""></div>
+            <div class="promo9"><img class="promo_img" src="img/img 107.jpg" alt="" title=""></div>
+            <div class="promo10"><img class="promo_img" src="img/Rectangle 108.jpg" alt="" title=""></div>
         </div>
-    </main>
-</div>
+    </section>
+    <section class="section_goods">
+        <p class="goods__title">Это выгодно!</p>
+        <div class="container container_goods">
+            <figure class="goods goods1">
+                <img class="goods_img" src="img/photo (10).jpg" alt="" title="">
+                <img class="goods_sale" src="img/promo.png" alt="" title="">
+                <figcaption class="goods__text1">1299 ₽ <span class="decoration">2598 ₽</span></figcaption>
+                <figcaption class="goods__text2">Пара футболок</figcaption>
+            </figure>
+            <figure class="goods goods2">
+                <img class="goods_img" src="img/photo (1).jpg" alt="" title="">
+                <img class="goods_sale" src="img/promo (1).png" alt="" title="">
+                <figcaption class="goods__text1">2099₽ <span class="decoration">5938 ₽</span></figcaption>
+                <figcaption class="goods__text2">Кроссовки</figcaption>
+            </figure>
+            <figure class="goods goods3">
+                <img class="goods_img" src="img/photo (2).jpg" alt="" title="">
+                <img class="goods_sale" src="img/promo (2).png" alt="" title="">
+                <figcaption class="goods__text1">3902 ₽ <span class="decoration">4490 ₽</span></figcaption>
+                <figcaption class="goods__text2">Постельное белье</figcaption>
+            </figure>
+            <figure class="goods goods4">
+                <img class="goods_img" src="img/photo (3).jpg" alt="" title="">
+                <img class="goods_sale" src="img/promo (3).png" alt="" title="">
+                <figcaption class="goods__text1">2999 ₽ <span class="decoration">6030 ₽</span></figcaption>
+                <figcaption class="goods__text2">Фен</figcaption>
+            </figure>
+            <figure class="goods goods5">
+                <img class="goods_img" src="img/photo (2).jpg" alt="" title="">
+                <img class="goods_sale" src="img/promo (2).png" alt="" title="">
+                <figcaption class="goods__text1">3902 ₽ <span class="decoration">4490 ₽</span></figcaption>
+                <figcaption class="goods__text2">Постельное белье</figcaption>
+            </figure>
+            <figure class="goods goods6">
+                <img class="goods_img" src="img/photo (3).jpg" alt="" title="">
+                <img class="goods_sale" src="img/promo (3).png" alt="" title="">
+                <figcaption class="goods__text1">2999 ₽ <span class="decoration">6030 ₽</span></figcaption>
+                <figcaption class="goods__text2">Фен</figcaption>
+            </figure>
+            <figure class="goods goods7">
+                <img class="goods_img" src="img/photo (20).jpg" alt="" title="">
+                <img class="goods_sale" src="img/promo (3).png" alt="" title="">
+                <figcaption class="goods__text1">540 ₽ <span class="decoration">890 ₽</span></figcaption>
+                <figcaption class="goods__text2">Варежки-мишки</figcaption>
+            </figure>
+            <figure class="goods goods8">
+                <img class="goods_img" src="img/photo (10).jpg" alt="" title="">
+                <img class="goods_sale" src="img/promo (1).png" alt="" title="">
+                <figcaption class="goods__text1">1299 ₽ <span class="decoration">2598 ₽</span></figcaption>
+                <figcaption class="goods__text2">Пара футболок</figcaption>
+            </figure>
+        </div>
+    </section>
+    </div>
+</main>
+<!--</div>-->
 </body>
 </html>
