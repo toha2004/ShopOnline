@@ -44,7 +44,7 @@ ul, ol {
 }
 
 
-h1, h2, p, figcaption {
+h1, h2, p,figure, figcaption {
     margin: 0;
     padding: 0;
 }

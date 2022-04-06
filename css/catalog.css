@@ -64,7 +64,7 @@
 }
 
 .container_promo {
-    height: 1092px;
+    /* height: 1092px;*/
     object-fit: cover;
     display: grid;
     grid-template-columns: repeat(6, auto);
@@ -123,9 +123,8 @@
 }
 
 
-
 .container_goods {
-    min-height: 953px;
+    /* min-height: 953px;*/
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
     justify-content: space-between;
@@ -178,6 +177,7 @@
     color: #2D2D2D;
 }
 
+
 .decoration {
     font-weight: 400;
     font-size: 22px;
@@ -192,7 +192,7 @@
     }
 
     .section_promo {
-        padding: 20px 0 ;
+        padding: 20px 0;
     }
 
     .section_goods {
@@ -207,7 +207,7 @@
     .container_banner {
         height: 314px;
         background-size: cover;
-        background-position: center;;
+        background-position: center;
         margin: 0 auto 60px auto;
     }
 
@@ -233,7 +233,7 @@
     }
 
     .container_promo {
-        height: 1322px;
+        /* height: 1322px;*/
         object-fit: cover;
         display: grid;
         grid-template-columns: repeat(4, 217px);
@@ -254,11 +254,16 @@
     }
 
     .container_goods {
-        height: 1383px;
+        /* height: 1383px;*/
         grid-template-columns: repeat(3, minmax(300px, 1fr));
         /* grid-template-rows: repeat(3, 1fr);*/
         grid-gap: 47px 30px;
         margin: 0 auto;
+    }
+
+    .goods {
+        width: 300px;
+        height: 397px;
     }
 
     .goods_img {
@@ -275,7 +280,7 @@
     }
 
     .section_promo {
-        padding: 20px 0 ;
+        padding: 20px 0;
     }
 
     .section_goods {
@@ -316,7 +321,7 @@
     }
 
     .container_promo {
-        height: 1322px;
+        /* height: 1322px;*/
         object-fit: cover;
         display: grid;
         grid-template-columns: repeat(4, 140px);
@@ -328,6 +333,7 @@
         grid-template-columns: repeat(3, minmax(220px, 1fr));
         grid-gap: 50px 20px;
     }
+
     .goods__title {
         width: 700px;
         margin: 0 auto 30px auto;
@@ -362,12 +368,13 @@
     }
 
     .section_promo {
-        padding: 10px 0 ;
+        padding: 10px 0;
     }
 
     .section_goods {
         padding: 30px 0;
     }
+
     .container {
         max-width: 280px;
         margin: 0 auto;
@@ -375,7 +382,6 @@
 
     .container_banner {
         height: 340px;
-        background-size: auto;
     }
 
     .banner_text1 {
@@ -401,7 +407,7 @@
     }
 
     .container_promo {
-        height: 1116px;
+        /* height: 1116px;*/
         object-fit: cover;
         display: grid;
         grid-template-columns: repeat(2, auto);
@@ -430,10 +436,11 @@
     }
 
     .container_goods {
-        height: 861px;
+        /* height: 861px;*/
         grid-template-columns: repeat(2, minmax(130px, 1fr));
         grid-gap: 30px 20px;
     }
+
     .goods__title {
         width: 280px;
         margin: 0 auto 25px auto;
@@ -466,7 +473,7 @@
         font-size: 16px;
         line-height: 19px;
         margin-right: 28px;
-        margin-bottom: 15px;
+        margin-bottom: 3px;
     }
 
     .goods__text2 {

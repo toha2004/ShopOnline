@@ -11,16 +11,16 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-<!--<div class="wrapper">-->
 <header class="header">
     <div class="container container__header">
         <img class="logo" src="img/logo.svg" alt="логотип" title="logo">
-        <!--<div class="box">-->
-        <button type="submit" class="navigation-btn"><img class="sort" src="img/sort.svg">Меню</button>
-        <form action="https://jsonplaceholder.typicode.com/posts" method="post">
-            <input type="text" class="search" placeholder="Я ищу...">
-        </form>
-        <!--</div>-->
+        <div class="box">
+            <button type="submit" class="navigation-btn"><img class="sort" src="img/sort.svg">Меню</button>
+            <form action="https://jsonplaceholder.typicode.com/posts" method="post">
+                <input type="text" class="search" placeholder="Я ищу...">
+            </form>
+        </div>
+
         <ul class="buyer__list">
             <li class="buyer__items profile"><a href="#">
             </a></li>
@@ -29,6 +29,23 @@
             <li class="buyer__items favourite"><a href="#">
             </a></li>
         </ul>
+    </div>
+    <div class="container container__header2">
+        <img class="logo" src="img/logo.svg" alt="логотип" title="logo">
+        <div class="box2">
+            <button type="submit" class="navigation-btn"><img class="sort" src="img/sort.svg">Меню</button>
+            <ul class="buyer__list">
+                <li class="buyer__items profile"><a href="#">
+                </a></li>
+                <li class="buyer__items basket"><a href="#">
+                </a></li>
+                <li class="buyer__items favourite"><a href="#">
+                </a></li>
+            </ul>
+        </div>
+        <form action="https://jsonplaceholder.typicode.com/posts" method="post">
+            <input type="text" class="search" placeholder="Я ищу...">
+        </form>
     </div>
 </header>
 <main class="main">
@@ -109,6 +126,5 @@
     </section>
     </div>
 </main>
-<!--</div>-->
 </body>
 </html>
